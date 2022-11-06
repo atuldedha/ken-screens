@@ -16,7 +16,7 @@ const AboutProfile = () => {
             src={ProfilePic}
             alt="profile"
           />
-          <div className="absolute bottom-10 left-[20%] flex items-center space-x-6">
+          <div className="absolute bottom-10 left-[24%] flex items-center space-x-6">
             <div className="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center hover:cursor-pointer">
               <img
                 className="h-3 w-3 object-contain"
