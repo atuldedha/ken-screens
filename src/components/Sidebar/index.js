@@ -6,7 +6,7 @@ import data from "./staticData";
 const Sidebar = () => {
   const [selected, setSelected] = useState(1);
   return (
-    <div className="z-10 fixed left-0 top-0 bg-white flex flex-col space-y-5 shadow-md py-16 w-max h-max">
+    <div className="z-10 fixed top-0 bg-white flex flex-col space-y-4 shadow-md py-8 w-max h-max">
       {data.map((item, index) => (
         <SidebarItems
           key={index}
